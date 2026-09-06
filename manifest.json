@@ -1,0 +1,9 @@
+{
+  "id": "motion-database",
+  "name": "Motion Database",
+  "version": "2.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "A real relational database inside Obsidian. SQL terminal, multiple tables, foreign keys, GUI views.",
+  "author": "Custom",
+  "isDesktopOnly": true
+}
