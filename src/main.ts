@@ -2579,7 +2579,7 @@ CREATE VIEW IF NOT EXISTS product_revenue AS
      * DataviewJS applications a supported bootstrap path instead of requiring
      * the database to be created manually in the panel first.
      */
-    creatletse: async (name) => {
+    create: async (name) => {
       const trimmed = String(name ?? '').trim();
       if (!trimmed) throw new Error('Database name is required.');
 
